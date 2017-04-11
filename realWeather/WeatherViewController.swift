@@ -28,8 +28,6 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
         tableView.dataSource = self
         tableView.delegate = self
         
-    //    NSURL()
-       // Alamofire.request(URLRequestConvertible)
         
         
         // Do any additional setup after loading the view, typically from a nib.
