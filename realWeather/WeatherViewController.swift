@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import Alamofire
-
 
 class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -28,21 +26,24 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
         tableView.dataSource = self
         tableView.delegate = self
         
-        
+         //   Alamofire.request(URLConvertible)
         
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 0
+        return 1
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return 6
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "WeatherCell", for: indexPath)
+        
+        return cell
         
     }
     

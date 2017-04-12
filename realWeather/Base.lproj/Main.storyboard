@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,32 +19,32 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JVr-Ma-pmj">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="300"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1oe-Qj-p7D">
-                                        <rect key="frame" x="20" y="20" width="374" height="260"/>
+                                        <rect key="frame" x="20" y="20" width="728" height="260"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ZvP-vX-JIG">
-                                                <rect key="frame" x="0.0" y="0.0" width="187" height="260"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="364" height="260"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today, April 11, 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Eei-TI-ae4">
-                                                        <rect key="frame" x="0.0" y="0.0" width="164.66666666666666" height="86.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="164.5" height="86.5"/>
                                                         <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="16"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80.3°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="HaG-n2-jLL">
-                                                        <rect key="frame" x="0.0" y="86.666666666666657" width="141" height="86.666666666666657"/>
+                                                        <rect key="frame" x="0.0" y="86.5" width="141" height="87"/>
                                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="60"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brooklyn, NY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="pvX-Ga-vMz">
-                                                        <rect key="frame" x="0.0" y="173.33333333333337" width="106.33333333333333" height="86.666666666666629"/>
+                                                        <rect key="frame" x="0.0" y="173.5" width="106.5" height="86.5"/>
                                                         <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="16"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -52,13 +52,13 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jTq-CM-1WP">
-                                                <rect key="frame" x="187" y="0.0" width="187" height="260"/>
+                                                <rect key="frame" x="364" y="0.0" width="364" height="260"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="Clear" translatesAutoresizingMaskIntoConstraints="NO" id="IL2-Zh-WdX">
-                                                        <rect key="frame" x="40" y="0.0" width="107" height="107"/>
+                                                        <rect key="frame" x="128.5" y="0.0" width="107" height="107"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunny" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekY-sY-A5M">
-                                                        <rect key="frame" x="55.333333333333314" y="107" width="76.666666666666686" height="153"/>
+                                                        <rect key="frame" x="144" y="107" width="76.5" height="153"/>
                                                         <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="25"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -78,17 +78,17 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZYe-N9-KoZ">
-                                <rect key="frame" x="0.0" y="300" width="414" height="436"/>
+                                <rect key="frame" x="0.0" y="300" width="768" height="724"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="HMc-6u-Xoq">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="80"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="WeatherCell" rowHeight="80" id="HMc-6u-Xoq">
+                                        <rect key="frame" x="0.0" y="28" width="768" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HMc-6u-Xoq" id="A41-mw-7lR">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Be1-k2-Vix">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unicorn.png" translatesAutoresizingMaskIntoConstraints="NO" id="Be1-k2-Vix">
                                                     <rect key="frame" x="8" y="16" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="5Fj-Xg-Eai"/>
@@ -96,19 +96,19 @@
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5F6-j6-i20">
-                                                    <rect key="frame" x="66" y="15.999999999999996" width="332" height="47.666666666666657"/>
+                                                    <rect key="frame" x="66" y="16" width="686" height="48"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="E1s-qh-zAs">
-                                                            <rect key="frame" x="0.0" y="0.0" width="166" height="47.666666666666664"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="343" height="48"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Wednesday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXh-Yz-EKq">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="166" height="29"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="29.5"/>
                                                                     <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="15"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunny" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mri-tY-9lT">
-                                                                    <rect key="frame" x="0.0" y="28.999999999999996" width="166" height="18.666666666666661"/>
+                                                                    <rect key="frame" x="0.0" y="29.5" width="343" height="18.5"/>
                                                                     <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="15"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -116,16 +116,16 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="U1u-Ky-0jT">
-                                                            <rect key="frame" x="166" y="0.0" width="166" height="47.666666666666664"/>
+                                                            <rect key="frame" x="343" y="0.0" width="343" height="48"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="65.5°" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hT5-R9-qhL">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="166" height="29"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="29.5"/>
                                                                     <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="15"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="86.7°" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vbh-JG-NuQ">
-                                                                    <rect key="frame" x="0.0" y="28.999999999999996" width="166" height="18.666666666666661"/>
+                                                                    <rect key="frame" x="0.0" y="29.5" width="343" height="18.5"/>
                                                                     <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="15"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -176,5 +176,6 @@
     </scenes>
     <resources>
         <image name="Clear" width="107" height="107"/>
+        <image name="unicorn.png" width="200" height="205"/>
     </resources>
 </document>
