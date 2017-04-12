@@ -15,6 +15,8 @@
 		117ACB0A1E9AFA33002DCA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117ACB081E9AFA33002DCA80 /* LaunchScreen.storyboard */; };
 		118012D71E9C940D00B734CC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118012CA1E9C92F000B734CC /* Alamofire.framework */; };
 		118012D81E9C940D00B734CC /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 118012CA1E9C92F000B734CC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		11C7A68A1E9EB48D0008590A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7A6891E9EB48D0008590A /* Constants.swift */; };
+		11C7A6931E9EC31F0008590A /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C7A6921E9EC31F0008590A /* CurrentWeather.swift */; };
 		BF9C62AF6062E8F0685D67D1 /* Pods_realWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F47CB104C525166F7CE537D /* Pods_realWeather.framework */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +104,8 @@
 		117ACB091E9AFA33002DCA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		117ACB0B1E9AFA33002DCA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		118012BE1E9C92F000B734CC /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		11C7A6891E9EB48D0008590A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		11C7A6921E9EC31F0008590A /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		18C0883D4C813849EC2A3821 /* Pods-realWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-realWeather/Pods-realWeather.release.xcconfig"; sourceTree = "<group>"; };
 		4F47CB104C525166F7CE537D /* Pods_realWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -145,6 +149,8 @@
 				117ACAFF1E9AFA33002DCA80 /* AppDelegate.swift */,
 				117ACB011E9AFA33002DCA80 /* WeatherViewController.swift */,
 				117ACB031E9AFA33002DCA80 /* Main.storyboard */,
+				11C7A6891E9EB48D0008590A /* Constants.swift */,
+				11C7A6921E9EC31F0008590A /* CurrentWeather.swift */,
 				117ACB061E9AFA33002DCA80 /* Assets.xcassets */,
 				117ACB081E9AFA33002DCA80 /* LaunchScreen.storyboard */,
 				117ACB0B1E9AFA33002DCA80 /* Info.plist */,
@@ -370,6 +376,8 @@
 			files = (
 				117ACB021E9AFA33002DCA80 /* WeatherViewController.swift in Sources */,
 				117ACB001E9AFA33002DCA80 /* AppDelegate.swift in Sources */,
+				11C7A6931E9EC31F0008590A /* CurrentWeather.swift in Sources */,
+				11C7A68A1E9EB48D0008590A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
