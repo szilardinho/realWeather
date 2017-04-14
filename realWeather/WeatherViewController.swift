@@ -15,13 +15,17 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
     @IBOutlet weak var currentLocationLabel: UILabel!
     @IBOutlet weak var currentWeatherImage: UIImageView!
     @IBOutlet weak var currentWeatherTypeLabel: UILabel!
-
     @IBOutlet weak var tableView: UITableView!
     
+    var currentWeather = CurrentWeather()
     
     override func viewDidLoad() {
     
         super.viewDidLoad()
+        
+        currentWeather.downloadWeatherDetails {
+            //update UI
+        }
     
         tableView.dataSource = self
         tableView.delegate = self
