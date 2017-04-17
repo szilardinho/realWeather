@@ -20,10 +20,14 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
     var currentWeather = CurrentWeather()
     
     override func viewDidLoad() {
-    
+        
+
+        
+        
         super.viewDidLoad()
         
         currentWeather.downloadWeatherDetails {
+            self.updateMainUI()
             //update UI
         }
     
@@ -52,7 +56,14 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     
-    
+    func updateMainUI() {
+        
+        dateLabel.text = currentWeather.date
+        currentTemperatureLabel.text = String(currentWeather.currentTemperature)
+        currentWeatherTypeLabel.text = currentWeather.weatherType
+        currentLocationLabel.text = currentWeather.cityName
+        currentWeatherImage.image = UIImage(named: currentWeather.weatherType)
+    }
 
    
 
