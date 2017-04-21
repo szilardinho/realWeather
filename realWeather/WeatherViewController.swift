@@ -18,26 +18,24 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
     @IBOutlet weak var tableView: UITableView!
     
     var currentWeather = CurrentWeather()
+    var forecast = Forecast!
+    
     
     override func viewDidLoad() {
-        
-
-        
-        
         super.viewDidLoad()
-        
-        currentWeather.downloadWeatherDetails {
-            self.updateMainUI()
-            //update UI
-        }
-    
         tableView.dataSource = self
         tableView.delegate = self
         
-         //   Alamofire.request(URLConvertible)
-        
-        // Do any additional setup after loading the view, typically from a nib.
+        currentWeather.downloadWeatherDetails {
+            self.forecast.downloadForecastData{
+            self.updateMainUI()
+            //update UI
+            }
+      
+        }
+    
     }
+  
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
